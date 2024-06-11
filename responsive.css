@@ -1,0 +1,53 @@
+/* Mobile Design */
+@media screen and (min-width: 300px) and (max-width: 700px) {
+
+
+
+
+
+
+
+  /* Contact Section Code Start */
+  .contact-section {
+    padding-top: 300px;
+    width: 90%;
+    display: block;
+    border-radius: none;
+  }
+
+  .time-section,
+  .location-section,
+  .phone-section {
+    padding: 30px 0;
+  }
+ 
+  .time-section,
+  .location-section {
+    border-right: none;
+  }
+  /* Contact Section Code End */
+}
+
+/* Tablet Design */
+@media screen and (min-width: 700px) and (max-width: 1150px) {
+      /* Contact Section Code Start */
+  .contact-section {
+    padding-top: 300px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: none;
+  }
+
+  .time-section,
+  .location-section,
+  .phone-section {
+    padding: 30px 0;
+  }
+ 
+  .time-section,
+  .location-section {
+    border-right: none;
+  }
+  /* Contact Section Code End */
+}

@@ -226,16 +226,34 @@ nav{
     align-items: center;
     padding: 10px 0;
     text-align: center;
+    margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 20px;
 }
 .contact-section i{
     background-color: var(--primary-color);
     color: white;
-    padding: 20px;
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    align-items: center;
+    padding: 10px;
     border-radius: 50%;
 }
 .time-section, .location-section, .phone-section{
-    padding: 20px 130px;
+    padding: 20px 100px;
+}
+.time-section h5, .location-section h5, .phone-section h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.94px;
+    padding-bottom: 5px ;
+    padding-top: 20px;
+}
+.time-section p, .location-section p, .phone-section p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25.85px;
 }
 .time-section, .location-section{
     border-right: 1px solid #B6B6B6;
