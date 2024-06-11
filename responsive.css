@@ -1,11 +1,34 @@
 /* Mobile Design */
 @media screen and (min-width: 300px) and (max-width: 700px) {
+  /* Nav Section Code Start */
+  nav {
+    display: block;
+    padding-bottom: 1000px;
+    align-items: center;
+    text-align: center;
+  }
+  .navbar-logo img {
+    width: 94px;
+    height: 56px;
+  }
+  .nav-menu ul {
+    display: block;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+  .nav-menu ul li {
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.94px;
+    padding-top: 22px;
+  }
+  .nav-searchbar {
+    width: 80%;
+    margin: 0 auto;
+  }
 
-
-
-
-
-
+  /* Nav Section Code End */
 
   /* Contact Section Code Start */
   .contact-section {
@@ -20,7 +43,7 @@
   .phone-section {
     padding: 30px 0;
   }
- 
+
   .time-section,
   .location-section {
     border-right: none;
@@ -30,7 +53,35 @@
 
 /* Tablet Design */
 @media screen and (min-width: 700px) and (max-width: 1150px) {
-      /* Contact Section Code Start */
+  /* Nav Section Code Start */
+  nav {
+    display: flex;
+    padding-bottom: 1000px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .navbar-logo img {
+    width: 94px;
+    height: 56px;
+  }
+  .nav-menu ul {
+    padding-top: 80px;
+    display: block;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+  .nav-menu ul li {
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.94px;
+    padding-top: 22px;
+  }
+
+  /* Nav Section Code End */
+
+  /* Contact Section Code Start */
   .contact-section {
     padding-top: 300px;
     width: 90%;
@@ -44,7 +95,7 @@
   .phone-section {
     padding: 30px 0;
   }
- 
+
   .time-section,
   .location-section {
     border-right: none;
