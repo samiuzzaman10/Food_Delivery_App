@@ -94,7 +94,7 @@ nav{
     justify-content: space-between;
 }
 .banner-first-section{
-    width: 48%;
+    width: 40%;
 }
 .bike-delivery{
     width: 270px;
@@ -126,8 +126,8 @@ nav{
 
 .banner-details h1{
     font-weight: 700;
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 73px;
+    line-height: 75px;
     color: var(--white-color);
     text-transform: uppercase;
     margin: 50px 0;
@@ -139,7 +139,8 @@ nav{
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    text-align: justify
+    text-align: justify;
+    line-break: none;
 }
 
 .banner-btn{
@@ -156,7 +157,7 @@ nav{
     border: none;
     border-radius: 10px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 31.69px;
 }
 .banner-btn-two{
@@ -164,7 +165,7 @@ nav{
     border: none;
     border-radius: 10px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 31.69px;
     align-content: center;
     display: flex;
@@ -213,6 +214,7 @@ nav{
 .banner-item-price{
     color: #BE1008;
     padding-top: 10px;
+    
 }
 /* Banner Section Code  End */
 
