@@ -101,39 +101,122 @@
   }
   /* Contact Section Code End */
   /* Product Section Code Start */
-.product-items-section{
-    display:block;
+  .product-items-section {
+    display: block;
     border-radius: 20px;
-    
-}
-.product-single-item{
+  }
+  .product-single-item {
     width: 80%;
     margin: 0 auto;
-    box-shadow: 0px 2px 30px 0px #0000001A;
+    box-shadow: 0px 2px 30px 0px #0000001a;
     border-radius: 20px;
     margin-bottom: 30px;
-    
-}
-.product-single-item img{
-  width: 100%;
-}
+  }
+  .product-single-item img {
+    width: 100%;
+  }
 
-/* Product Section Code End */
-/* Service Section Code Start */
-.service-card-section{
+  /* Product Section Code End */
+  /* Service Section Code Start */
+  .service-card-section {
     display: inline-block;
-}
-.service-single-card{
+  }
+  .service-single-card {
     width: 420px;
     height: 422px;
     border-radius: 35px;
     padding: 60px 25px;
     text-align: center;
-    border: 1px solid #B6B6B6;
+    border: 1px solid #b6b6b6;
     transition: 0.5s;
     margin-bottom: 40px;
-}
-/* Service Section Code End */
+  }
+  /* Service Section Code End */
+  /* Subcribe Section Code Start */
+  .subcribe-section {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+
+    background-color: #000000;
+    border-radius: 50px;
+    padding: 10px 0;
+    margin-bottom: 100px;
+  }
+  .subcribe-images-section {
+    width: 100%;
+    background-color: black;
+  }
+  .subcribe-images-section img {
+    width: 65%;
+    margin: 0 auto;
+    height: 20%;
+    margin-left: 20%;
+    background-color: black;
+    padding-top: 20px;
+    border-radius: 50px;
+    padding-right: 40px;
+  }
+  .subcribe-details-section {
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+    padding-right: 40px;
+  }
+  .subcribe-details-section h2,
+  .subcribe-details-section p {
+    color: #ffffff;
+    background-color: #000000;
+  }
+  .subcribe-details-section h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 43.88px;
+    margin-bottom: 10px;
+  }
+  .subcribe-details-section p {
+    width: 100;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15.94px;
+    text-align: justify;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .subcribe-details-section input {
+    width: 100%;
+    margin: 6%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+  }
+  .subcribe-details-section button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21.94px;
+    border-radius: 10px;
+    padding: 4px 18px;
+    border: none;
+    position: absolute;
+    right: 70px;
+    margin-top: -57px;
+    text-transform: uppercase;
+  }
+  /* Subcribe Section Code End */
+  /* Footer Section Code Start */
+  footer {
+    width: 90%;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-social-icon i {
+    margin-bottom: 50px;
+  }
+  /* Footer Section Code End */
 }
 
 /* Tablet Design */
@@ -236,42 +319,128 @@
     border-right: none;
   }
   /* Contact Section Code End */
-    /* Product Section Code Start */
-.product-items-section{
+  /* Product Section Code Start */
+  .product-items-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-radius: 20px;
-    
-}
-.product-single-item{
-  width: 90%;
+  }
+  .product-single-item {
+    width: 90%;
     margin: 0 auto;
-    box-shadow: 0px 2px 30px 0px #0000001A;
+    box-shadow: 0px 2px 30px 0px #0000001a;
     border-radius: 20px;
     margin-bottom: 30px;
-    
-}
-.product-single-item img{
+  }
+  .product-single-item img {
     align-items: center;
     width: 100%;
     margin: 0 auto;
     border-top-left-radius: 25px;
-}
-/* Product Section Code End */
-/* Service Section Code Start */
-.service-card-section{
+  }
+  /* Product Section Code End */
+  /* Service Section Code Start */
+  .service-card-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 15px;
-}
-.service-single-card{
+  }
+  .service-single-card {
     width: 90%;
     height: 402px;
     border-radius: 35px;
     padding: 60px 25px;
     text-align: center;
-    border: 1px solid #B6B6B6;
+    border: 1px solid #b6b6b6;
     transition: 0.5s;
     margin-bottom: 40px;
+  }
+  /* Service Section Code End */
+
+  /* Subcribe Section Code Start */
+  .subcribe-section {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+
+    background-color: #000000;
+    border-radius: 50px;
+    padding: 10px 0;
+    margin-bottom: 100px;
+  }
+  .subcribe-images-section {
+    width: 100%;
+    background-color: black;
+  }
+  .subcribe-images-section img {
+    width: 65%;
+    margin: 0 auto;
+    height: 20%;
+    margin-left: 20%;
+    background-color: black;
+    padding-top: 20px;
+    border-radius: 50px;
+    padding-right: 40px;
+  }
+  .subcribe-details-section {
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+    padding-right: 40px;
+  }
+  .subcribe-details-section h2,
+  .subcribe-details-section p {
+    color: #ffffff;
+    background-color: #000000;
+  }
+  .subcribe-details-section h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 43.88px;
+    margin-bottom: 10px;
+  }
+  .subcribe-details-section p {
+    width: 100;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15.94px;
+    text-align: justify;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .subcribe-details-section input {
+    width: 100%;
+    margin: 6%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+  }
+  .subcribe-details-section button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21.94px;
+    border-radius: 10px;
+    padding: 4px 18px;
+    border: none;
+    position: absolute;
+    right: 90px;
+    margin-top: -69px;
+    text-transform: uppercase;
+  }
+/* Subcribe Section Code End */
+  /* Footer Section Code Start */
+footer{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
 }
-/* Service Section Code End */
+
+.footer-social-icon i{
+    margin-bottom: 50px;
+}
+/* Footer Section Code End */
+}
