@@ -119,6 +119,21 @@
 }
 
 /* Product Section Code End */
+/* Service Section Code Start */
+.service-card-section{
+    display: inline-block;
+}
+.service-single-card{
+    width: 420px;
+    height: 422px;
+    border-radius: 35px;
+    padding: 60px 25px;
+    text-align: center;
+    border: 1px solid #B6B6B6;
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
+/* Service Section Code End */
 }
 
 /* Tablet Design */
@@ -241,7 +256,22 @@
     width: 100%;
     margin: 0 auto;
     border-top-left-radius: 25px;
-   
-
-/* Product Section Code End */
 }
+/* Product Section Code End */
+/* Service Section Code Start */
+.service-card-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 15px;
+}
+.service-single-card{
+    width: 90%;
+    height: 402px;
+    border-radius: 35px;
+    padding: 60px 25px;
+    text-align: center;
+    border: 1px solid #B6B6B6;
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
+/* Service Section Code End */

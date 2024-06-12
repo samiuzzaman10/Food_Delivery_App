@@ -267,7 +267,7 @@ nav{
     width: 90%;
     margin: 0 auto;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .product-section-title{
     text-align: center;
@@ -385,3 +385,54 @@ nav{
 }
 
 /* Product Section Code End */
+
+/* Service Section Code Start */
+.service-secton{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.service-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service-card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-single-card{
+    width: 420px;
+    height: 422px;
+    border-radius: 35px;
+    padding: 60px 25px;
+    text-align: center;
+    border: 1px solid #B6B6B6;
+    transition: 0.5s;
+    margin-right: 40px;
+}
+.service-single-card:hover{
+    box-shadow: 0px 20px 80px 0px #00000026;
+}
+.service-single-card i{
+    background-color: var(--second-color);
+    color: var(--primary-color);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.7;
+}
+.service-single-card h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31.69px;
+    padding: 25px 0;
+}
+.service-single-card p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+}
+/* Service Section Code End */
